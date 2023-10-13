@@ -38,7 +38,7 @@ if __name__ == "__main__":
     file_name = f"CRAZYDOWNLOADS - {file_name}"
 
     # Specify the download directory
-    download_directory = r'D:\CrazyDownloads'  # Change this to your desired directory
+    download_directory = r'D:\'  # Change this to your desired directory
 
     # Create the download directory if it doesn't exist
     if not os.path.exists(download_directory):
